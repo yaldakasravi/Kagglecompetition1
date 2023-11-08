@@ -36,7 +36,9 @@ The code trains several machine learning models with the specified hyperparamete
 Model Evaluation
 
 The code evaluates the selected model's performance on the validation dataset and prints the accuracy. It also provides counts of predicted labels and the distribution of true labels for further analysis.
+with analysis.py we can see each labels prediction count to adjust the weight.
 
 Submission
 
 Once the best model is selected, it is used to make predictions on the test dataset. The predictions are saved to a CSV file named "submission.csv" in the required format for submission.
+
